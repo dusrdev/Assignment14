@@ -5,9 +5,9 @@ namespace Assignment14 {
         static void Main(string[] args) {
             // Choosing the currect structes
             Console.WriteLine("Please choose the desired structures:");
-            Console.WriteLine("1. Sorted lists");
-            Console.WriteLine("2. Unsorted lists");
-            Console.WriteLine("3. Estranged lists");
+            Console.WriteLine("1. Sorted sets");
+            Console.WriteLine("2. Unsorted sets");
+            Console.WriteLine("3. Unsorted and disjoint sets");
             Console.Write("\nYour choice: ");
             int structureChoice = int.Parse(Console.ReadLine());
 
@@ -18,7 +18,7 @@ namespace Assignment14 {
                 case 2: { // Unsorted
                         break;
                     }
-                case 3: { // Estranged
+                case 3: { // Disjoint
                         break;
                     }
                 default: { // Invalid option
