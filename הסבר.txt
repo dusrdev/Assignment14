@@ -1,33 +1,33 @@
 Intro:
 
-I will write this file in English as it will allow to use English names and such without messing up the format.
+I will write this file in English, as it will allow using English names and such without messing up the format.
 I hope you will find this acceptable.
 
 The project is written in c# on .NET 5, it not the latest version and that is on purpose to allow it to run on different machines which might not be as updated as they should be.
-If this project does not run on your machine, I truly appologize and you will either need to install .NET 5 runtime,
+If this project does not run on your machine, I truly apologize, and you will either need to install .NET 5 runtime,
 or open the solution with Visual Studio or other supported IDE's to change the .NET version and rebuild the project.
 * Keep in-mind that changing to a different .NET version may alter the looks and or the functionality of the code and introduce bugs or unwanted behavior. If such thing happens, I believe my grade should still be measured by this original code, as this is what is intended to be run.
 
-For convience, In addition to the whole project, I have built a release .exe and a commands.exe text file.
+For convenience, In addition to the whole project, I have built a release .exe and a commands.exe text file.
 They all can be found in: Assignment14\Assignment14\bin\Release\net5.0
 
 Clarification on how things work:
 
-To avoid unneccessary complication of this "proof-of-concept" assignment, The requirement of being able to use a text file
+To avoid unnecessary complication of this "proof-of-concept" assignment, The requirement of being able to use a text file
 to import commands is met as follows:
 
 The commands are to be written in a file called "commands.txt" and be placed in the same directory as the executable.
-If you will use the release version I have built for your convience (read above), it will be simple.
+If you use the release version I have built for your convenience (read above), it will be simple.
 If you wish to use this file while debugging inside an IDE, make sure you put the file in the directory of the DEBUG folder executable.
 
-To make the project cleaner, it is written in OOP structure in which all types of structures are inherited from a base class,
-in addition, there is a parser class which will be responsible for, you guessed it, parsing the commands from file, should you choose to import it (Mission impossible reference :) )
-There is also a command executer class, which will take all commands whether inputted via the console or imported from the file, and execute them in the selected data structure type.
+To make the project cleaner, it is written in OOP structure, in which all types of structures are inherited from a base class,
+in addition, there is a parser class which will be responsible for, you guessed it, parsing the commands from the file, should you choose to import it (Mission impossible reference :) )
+There is also a command executer class, which will take all commands, whether inputted via the console or imported from the file, and execute them in the selected data structure type.
 
-* Imported Note:
+* Important Note:
 
 If you open the source code files, "program.cs" being the main, and structures and helpers in their corresponding folders,
-you will find they are adequately documented, in each key point of the code, there is an explanation to what happens there and why the compiler reached this point. Above all methods/classes there will be a summary, explaining what the method/class does or is responsible of doing, as well as a simple time-complexity analysis.
+you will find they are adequately documented, in each key point of the code, there is an explanation to what happens there and why the compiler reached this point. Above all methods/classes there will be a summary, explaining what the method/class does or is responsible for doing, as well as a simple time-complexity analysis.
 
 As written the first line when the program is launched, I am it's sole author, thus it made it more time-consuming to write and test, I hope this effort will be reflected during consideration of my grade.
 
