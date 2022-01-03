@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment14.Helpers {
     public class Parser {
@@ -36,7 +32,7 @@ namespace Assignment14.Helpers {
                 return false;
             }
 
-            return true;
+            return commands.Length != 0; // If 0 commands have been found, count as parsing failed.
         }
     }
 }
